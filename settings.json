@@ -1,0 +1,48 @@
+{
+	"window.openFilesInNewWindow": "off",
+
+	"prettier.tabWidth": 2,
+	"prettier.trailingComma": "all",
+	"prettier.semi": true,
+	"prettier.jsxBracketSameLine": true,
+	"prettier.printWidth": 100,
+
+	"editor.tabSize": 2,
+	"editor.wordWrap": "on",
+	"editor.insertSpaces": false,
+	"editor.smoothScrolling": true,
+	"editor.minimap.enabled": false,
+	"editor.detectIndentation": true,
+	"editor.suggestSelection": "first",
+	"prettier.useTabs": true,
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascriptreact]": {
+		"editor.deafaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prettier.arrowParens": "avoid",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+
+	"javascript.suggestionActions.enabled": false,
+	"typescript.suggestionActions.enabled": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+
+	"cSpell.language": "en,ru",
+	"cSpell.userWords": [],
+	"cSpell.enabled": true,
+	"cSpell.enableFiletypes": ["blade", "jsx", "sass", "vue"],
+
+	"liveServer.settings.CustomBrowser": "chrome",
+	"workbench.iconTheme": "vscode-icons",
+	"workbench.colorTheme": "Bearded Theme Monokai Metallian",
+	"editor.formatOnType": true,
+	"editor.fontSize": 13,
+	"auto-rename-tag.activationOnLanguage": ["*"],
+	"editor.formatOnSave": true,
+	"prettier.singleQuote": true,
+	"materialTheme.accent": "Orange",
+	"git.ignoredRepositories": ["$RECYCLE.BIN/"],
+	"git.defaultCloneDirectory": ""
+}
