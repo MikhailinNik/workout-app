@@ -5,6 +5,8 @@ import colors from 'colors';
 
 // Routes
 import userRouter from './routes/userRouter.js';
+import exerciseRouter from './routes/exerciseRouter.js';
+import workoutRouter from './routes/workoutRouter.js';
 
 // Config
 import { connectDB } from './config/db.js';
@@ -24,7 +26,9 @@ if (process.env.NODE_ENV === 'development') {
 
 app.use(express.json());
 
-app.use('/api/users/', userRouter);
+app.use('/api/users', userRouter);
+app.use('/api/exercises', exerciseRouter);
+app.use('/api/workouts', workoutRouter);
 
 app.use(notFound);
 app.use(errorHandler);

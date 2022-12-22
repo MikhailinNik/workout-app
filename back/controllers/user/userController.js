@@ -5,7 +5,7 @@ import User from '../../models/userModel.js';
 //@access    Private
 
 export const getUserController = asyncHandler(async (req, res) => {
-	const user = await User.findById(req.user._id).select('-password');
+	const user = await User.findById(req.user._id).select('-password').lean();
 
 	res.json(user);
 });
